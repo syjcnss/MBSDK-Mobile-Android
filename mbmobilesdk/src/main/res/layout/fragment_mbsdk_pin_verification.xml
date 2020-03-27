@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.daimler.mbmobilesdk.login.pin.PinVerificationViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mb_grey_background">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mb_grey_background">
+
+                <com.daimler.mbmobilesdk.ui.widgets.layouts.MBElevatedConstraintLayout
+                    android:id="@+id/root_tan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.daimler.mbmobilesdk.ui.widgets.textviews.MBHeadline4SerifTextView
+                        android:id="@+id/tv_headline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/mb_margin_default"
+                        android:gravity="center"
+                        android:text="@string/verification_headline"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.textviews.MBBody2TextView
+                        android:id="@+id/tv_msg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mb_margin_default"
+                        android:layout_marginTop="@dimen/mb_margin_small"
+                        android:layout_marginRight="@dimen/mb_margin_default"
+                        android:gravity="center"
+                        android:text="@{@string/verification_login_msg_user(model.PIN_DIGITS, model.userName)}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_headline"
+                        tools:text="@string/verification_login_msg_mail" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.edittexts.MBPinTextInput
+                        android:id="@+id/edit_pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mb_margin_large"
+                        android:layout_marginTop="@dimen/mb_margin_large"
+                        android:layout_marginEnd="@dimen/mb_margin_large"
+                        android:inputType="number"
+                        android:minHeight="46dp"
+                        app:inputLength="6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_msg"
+                        app:pinListener="@{(s) -> model.onPinInputChanged(s)}"
+                        app:lastDigitEnteredListener="@{() -> model.onContinueClicked()}"
+                        app:spacing="@dimen/mb_margin_default" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.loadingindicators.MBLoadingSpinner
+                        android:id="@+id/progress_validate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="@{safeUnbox(model.validationProgressVisible)}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/edit_pin" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.buttons.MBPrimaryButton
+                        android:id="@+id/btn_continue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mb_margin_default"
+                        android:layout_marginTop="@dimen/mb_margin_large"
+                        android:layout_marginEnd="@dimen/mb_margin_default"
+                        android:layout_marginBottom="@dimen/mb_margin_default"
+                        android:enabled="@{safeUnbox(model.pinInputReady)}"
+                        android:onClick="@{() -> model.onContinueClicked()}"
+                        android:text="@string/verification_btn_next"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/edit_pin" />
+
+                </com.daimler.mbmobilesdk.ui.widgets.layouts.MBElevatedConstraintLayout>
+
+                <com.daimler.mbmobilesdk.ui.widgets.layouts.MBElevatedConstraintLayout
+                    android:id="@+id/root_no_tan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/mb_margin_default"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/root_tan">
+
+                    <com.daimler.mbmobilesdk.ui.widgets.textviews.MBHeadline4SerifTextView
+                        android:id="@+id/tv_headline_not_received"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/mb_margin_default"
+                        android:gravity="center"
+                        android:text="@string/verification_not_received"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.textviews.MBBody2TextView
+                        android:id="@+id/tv_hint_not_received"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mb_margin_default"
+                        android:layout_marginTop="@dimen/mb_margin_default"
+                        android:layout_marginEnd="@dimen/mb_margin_default"
+                        android:gravity="center"
+                        android:text="@{model.isMail ? @string/verification_not_received_hint_mail : @string/verification_not_received_hint_phone}"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_headline_not_received"
+                        tools:text="@string/verification_not_received_hint_mail" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.loadingindicators.MBLoadingSpinner
+                        android:id="@+id/progress_new_tan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/mb_margin_tiny"
+                        android:layout_marginBottom="@dimen/mb_margin_default"
+                        android:visibility="@{safeUnbox(model.tanProgressVisible)}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_hint_not_received" />
+
+                    <com.daimler.mbmobilesdk.ui.widgets.buttons.MBSecondaryButton
+                        android:id="@+id/btn_retry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/mb_margin_default"
+                        android:layout_marginTop="@dimen/mb_margin_large"
+                        android:layout_marginEnd="@dimen/mb_margin_default"
+                        android:layout_marginBottom="@dimen/mb_margin_default"
+                        android:enabled="@{!safeUnbox(model.processing)}"
+                        android:onClick="@{() -> model.onRetryClicked()}"
+                        android:text="@string/verification_btn_send_again"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_hint_not_received" />
+
+                </com.daimler.mbmobilesdk.ui.widgets.layouts.MBElevatedConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

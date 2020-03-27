@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Introduziu o seu PIN erradamente %1$d vezes. Introduziu o seu PIN erradamente %1$d vezes.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minutos</string>
+    <string name="command_error_pin_invalid">Introduziu o seu PIN erradamente %1$d vezes.</string>
+    <string name="general_cancel">Cancelar</string>
+    <string name="general_error_msg">Ocorreu um erro. Tente novamente.</string>
+    <string name="general_error_network_msg">Algo correu mal. Verifique a sua ligação à Internet.</string>
+    <string name="general_error_title">Erro</string>
+    <string name="general_hint">Nota</string>
+    <string name="general_no">Não</string>
+    <string name="general_ok">Ok</string>
+    <string name="general_yes">Sim</string>
+    <string name="login_error_authentication_failed">A autenticação falhou. Tente novamente.</string>
+    <string name="login_error_wrong_tan">As informações que introduziu não estão corretas. Tenha em atenção que pode ser necessário aguardar alguns minutos antes de fazer uma nova tentativa.</string>
+    <string name="login_info_alert_message">A ID Mercedes me é composta pelo seu número de telemóvel ou pelo seu endereço de e-mail pessoais. Com a sua ID Mercedes me pode iniciar a sessão em todo o mundo digital Mercedes-Benz. Ela garante-lhe acesso a todos os serviços, funções e plataformas disponíveis no seu país de residência.</string>
+    <string name="login_info_alert_title">ID Mercedes me</string>
+    <string name="login_invalid_input">Insira um endereço de e-mail ou um número de telefone válidos.</string>
+    <string name="login_mercedesme_id">ID Mercedes me</string>
+    <string name="login_next">Continuar</string>
+    <string name="login_only_caption">Início sessão</string>
+    <string name="login_username">N.º de telemóvel ou endereço de e-mail</string>
+    <string name="login_user_not_registered">"Faça o seu registro gratuito numa das outras aplicações Mercedes me. "</string>
+    <string name="pin_popup_button_again">Tentar novamente</string>
+    <string name="pin_popup_cancel">Cancelar</string>
+    <string name="pin_popup_default_no_pin_message">Defina um PIN numa das aplicações Mercedes me.</string>
+    <string name="pin_popup_description">Introduza o seu PIN de %1$d algarismos:</string>
+    <string name="pin_popup_send">Enviar</string>
+    <string name="pin_popup_title">Introdução de PIN</string>
+    <string name="pin_popup_wrong_pin_msg">O PIN não está correto. Tente novamente.</string>
+    <string name="pin_popup_wrong_pin_title">PIN errado</string>
+    <string name="registration_user_consent_message">Para melhorar continuamente a aplicação, procedemos a uma análise da utilização da aplicação e das suas funções cuja origem não pode ser rastreada até si. É possível desativar esta função a qualquer momento através de Menu &gt; Definições &gt; Análise.</string>
+    <string name="registration_user_consent_title">Dados de utilização Mercedes me</string>
+    <string name="verification_btn_next">Continuar</string>
+    <string name="verification_btn_send_again">Pedir novo código TAN</string>
+    <string name="verification_headline">Código de verificação</string>
+    <string name="verification_login_msg_mail">Introduza o código TAN que lhe enviámos por e-mail.</string>
+    <string name="verification_login_msg_user">Para a verificação, enviámos-lhe um código com %1$d dígitos a %2$s. Introduza esse código.</string>
+    <string name="verification_not_received">Código TAN indisponível?</string>
+    <string name="verification_not_received_hint_mail">Verifique o endereço de e-mail introduzido ou solicite um novo código de verificação.</string>
+    <string name="verification_not_received_hint_phone">Verifique o número de telemóvel introduzido e solicite um novo código TAN.</string>
+    <string name="verification_send_again_msg">O seu pedido foi enviado novamente</string>
+    <string name="verification_title">Confirmação</string>
+</resources>

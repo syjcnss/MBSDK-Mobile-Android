@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Въвели сте грешно Вашия PIN %1$d пъти. Вашият Mercedes me ID беше блокиран за %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d минути</string>
+    <string name="command_error_pin_invalid">Въвели сте погрешно Вашия PIN %1$d пъти.</string>
+    <string name="general_cancel">Прекратяване</string>
+    <string name="general_error_msg">Възникна грешка. Моля, опитайте отново.</string>
+    <string name="general_error_network_msg">Нещо се обърка. Моля, проверете Вашата интернет връзка.</string>
+    <string name="general_error_title">Грешка</string>
+    <string name="general_hint">Указание</string>
+    <string name="general_no">Не</string>
+    <string name="general_ok">ОК</string>
+    <string name="general_yes">Да</string>
+    <string name="login_error_authentication_failed">Идентификацията е неуспешна. Моля, опитайте отново.</string>
+    <string name="login_error_wrong_tan">За съжаление въведената от Вас информация не беше коректна. Моля, обърнете внимание, че евентуално трябва да изчакате няколко минути преди отново да опитате.</string>
+    <string name="login_info_alert_message">Mercedes me ID се състои или от Вашия личен мобилен номер или от Вашия имейл адрес.С вашия Mercedes me ID може да влезете навсякъде в дигиталния свят на Mercedes-Benz. Той предлага достъп до всички налични услуги, функции и платформи във Вашата държава по местожителство.</string>
+    <string name="login_info_alert_title">Идент. Mercedes me</string>
+    <string name="login_invalid_input">Моля, въведете валиден имейл адрес или телефонен номер.</string>
+    <string name="login_mercedesme_id">Идент. Mercedes me</string>
+    <string name="login_next">Напред</string>
+    <string name="login_only_caption">Вписване</string>
+    <string name="login_username">Мобилен номер или имейл адрес</string>
+    <string name="login_user_not_registered">Моля, регистрирайте се безплатно в едно от другите Mercedes me Apps.</string>
+    <string name="pin_popup_button_again">Опитайте отново</string>
+    <string name="pin_popup_cancel">Прекратяване</string>
+    <string name="pin_popup_default_no_pin_message">Моля, определете в едно от приложенията Mercedes me Apps един PIN.</string>
+    <string name="pin_popup_description">Моля въведете Вашия %1$d-цифрен PIN:</string>
+    <string name="pin_popup_send">Изпрати</string>
+    <string name="pin_popup_title">Въвеждане на PIN</string>
+    <string name="pin_popup_wrong_pin_msg">PIN не е коректен. Моля, опитайте отново.</string>
+    <string name="pin_popup_wrong_pin_title">Грешен PIN</string>
+    <string name="registration_user_consent_message">За да подобряваме непрекъснато приложението, ние анализираме ползването на приложението и наговите функции, без да ги свързваме с Вашата личност. Тази функция може да бъде деактивирана по всяко време през Меню &gt; Настройки &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Mercedes me данни за ползване</string>
+    <string name="verification_btn_next">Напред</string>
+    <string name="verification_btn_send_again">Изискване за нов TAN-код</string>
+    <string name="verification_headline">Код за потвърждение</string>
+    <string name="verification_login_msg_mail">Моля, въведете TAN-кода, който Ви изпратихме по имейл.</string>
+    <string name="verification_login_msg_user">За удостоверяване Ви изпратихме един %1$d-цифрен код на %2$s. Моля въведете този код.</string>
+    <string name="verification_not_received">Не е получен TAN-код?</string>
+    <string name="verification_not_received_hint_mail">Моля, проверете въведения имейл адрес или изискайте нов код за удостоверяване.</string>
+    <string name="verification_not_received_hint_phone">Моля, проверете въведения мобилен номер или изискайте нов TAN-код.</string>
+    <string name="verification_send_again_msg">Вашето запитване беше изпратено отново</string>
+    <string name="verification_title">Удостоверяване</string>
+</resources>

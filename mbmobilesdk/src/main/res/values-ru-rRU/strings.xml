@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Вы ввели PIN-код %1$d раз (раза) неправильно. Ваш Mercedes me ID заблокирован на %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d минуты/минут</string>
+    <string name="command_error_pin_invalid">Вы неправильно ввели ваш PIN-код %1$d раз/раза.</string>
+    <string name="general_cancel">Отменить</string>
+    <string name="general_error_msg">Произошла ошибка. Повторите попытку, пожалуйста.</string>
+    <string name="general_error_network_msg">Что-то пошло не так. Проверьте Ваше интернет-соединение.</string>
+    <string name="general_error_title">Ошибка</string>
+    <string name="general_hint">Указание</string>
+    <string name="general_no">Нет</string>
+    <string name="general_ok">Ok</string>
+    <string name="general_yes">Да</string>
+    <string name="login_error_authentication_failed">Произошла ошибка при аутентификации. Повторите попытку, пожалуйста.</string>
+    <string name="login_error_wrong_tan">К сожалению, указанная вами информация неверна. Обращаем ваше внимание на то, что повторную попытку можно будет предпринять только через несколько минут.</string>
+    <string name="login_info_alert_message">Идентификатор Mercedes me ID состоит из вашего личного номера мобильного телефона или вашего адреса электронной почты. С вашим Mercedes me ID Вы можете входить во все системы цифрового мира «Мерседес-Бенц». Он предоставляет доступ ко всем службам, функциям и платформам, доступным в Вашей стране.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Укажите действительный адрес электронной почты или номер телефона.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Дальше</string>
+    <string name="login_only_caption">Вход в учетную запись</string>
+    <string name="login_username">Мобильный номер или адрес электронной почты</string>
+    <string name="login_user_not_registered">Пожалуйста, зарегистрируйтесь бесплатно в одном из других приложений Mercedes me.</string>
+    <string name="pin_popup_button_again">Повторить попытку</string>
+    <string name="pin_popup_cancel">Отменить</string>
+    <string name="pin_popup_default_no_pin_message">Пожалуйста, присвойте PIN-код в одном из приложений Mercedes me.</string>
+    <string name="pin_popup_description">Укажите, пожалуйста, Ваш %1$d-значный PIN-код:</string>
+    <string name="pin_popup_send">Отправить</string>
+    <string name="pin_popup_title">Ввод PIN-кода</string>
+    <string name="pin_popup_wrong_pin_msg">PIN-код неправильный. Повторите попытку, пожалуйста.</string>
+    <string name="pin_popup_wrong_pin_title">Неправильный PIN-код</string>
+    <string name="registration_user_consent_message">Для постоянного улучшения приложения мы анализируем использование приложения и его функций, анонимизируя вашу личность. Эту функцию можно в любое время деактивировать в меню &gt; «Настройки» &gt; «Аналитические данные».</string>
+    <string name="registration_user_consent_title">Mercedes me данные об использовании</string>
+    <string name="verification_btn_next">Дальше</string>
+    <string name="verification_btn_send_again">Запросить новый TAN-код</string>
+    <string name="verification_headline">Код верификации</string>
+    <string name="verification_login_msg_mail">Укажите, пожалуйста, TAN-код, который мы отправили Вам по электронной почте.</string>
+    <string name="verification_login_msg_user">Мы отправили вам %1$d-значный код на %2$s для проверки. Введите, пожалуйста, этот код.</string>
+    <string name="verification_not_received">Нет TAN-кода?</string>
+    <string name="verification_not_received_hint_mail">Проверьте, пожалуйста введенный адрес электронной почты или запросите новый код верификации.</string>
+    <string name="verification_not_received_hint_phone">Проверьте, пожалуйста введенный номер мобильного телефона или запросите новый TAN-код.</string>
+    <string name="verification_send_again_msg">Ваш запрос отправлен повторно</string>
+    <string name="verification_title">Верификация</string>
+</resources>

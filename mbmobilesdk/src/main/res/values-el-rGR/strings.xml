@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Καταχωρήσατε λάθος το PIN σας %1$d φορές. Κατά συνέπεια, το Mercedes me ID σας αποκλείστηκε για %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d λεπτά</string>
+    <string name="command_error_pin_invalid">Καταχωρήσατε λάθος το PIN σας %1$d φορές.</string>
+    <string name="general_cancel">Ακύρωση</string>
+    <string name="general_error_msg">Παρουσιάστηκε ένα σφάλμα. Προσπαθήστε ξανά.</string>
+    <string name="general_error_network_msg">Προέκυψε σφάλμα. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.</string>
+    <string name="general_error_title">Σφάλμα</string>
+    <string name="general_hint">Σημείωση</string>
+    <string name="general_no">Όχι</string>
+    <string name="general_ok">ΟΚ</string>
+    <string name="general_yes">Ναι</string>
+    <string name="login_error_authentication_failed">Ο έλεγχος ταυτότητας απέτυχε. Προσπαθήστε ξανά.</string>
+    <string name="login_error_wrong_tan">Δυστυχώς, οι πληροφορίες που καταχωρήσατε δεν είναι σωστές. Λάβετε υπόψη, ότι, εάν χρειαστεί, πρέπει να περιμένετε λίγα λεπτά πριν προσπαθήσετε ξανά.</string>
+    <string name="login_info_alert_message">Το Mercedes me ID αποτελείται είτε από τον προσωπικό αριθμό κινητού σας είτε από τη διεύθυνση e-mail σας. Με το Mercedes me ID μπορείτε να συνδέεστε στον ψηφιακό κόσμο της Mercedes-Benz από παντού. Προσφέρει πρόσβαση σε όλες τις υπηρεσίες, λειτουργίες και πλατφόρμες που είναι διαθέσιμες στη χώρα διεύθυνσής σας.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Καταχωρήστε μια έγκυρη διεύθυνση e-mail ή έναν έγκυρο αριθμό τηλεφώνου.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Συνέχεια</string>
+    <string name="login_only_caption">Σύνδεση</string>
+    <string name="login_username">Κινητό τηλέφωνο ή διεύθυνση e-mail</string>
+    <string name="login_user_not_registered">Εγγραφείτε δωρεάν σε μία από τις άλλες εφαρμογές Mercedes me App.</string>
+    <string name="pin_popup_button_again">Νέα προσπάθεια</string>
+    <string name="pin_popup_cancel">Ακύρωση</string>
+    <string name="pin_popup_default_no_pin_message">Καθορίστε ένα PIN σε μία από τις εφαρμογές Mercedes me App.</string>
+    <string name="pin_popup_description">Καταχωρήστε το %1$dψήφιο PIN σας:</string>
+    <string name="pin_popup_send">Αποστολή</string>
+    <string name="pin_popup_title">Καταχώριση PIN</string>
+    <string name="pin_popup_wrong_pin_msg">Το PIN δεν είναι σωστό. Προσπαθήστε ξανά.</string>
+    <string name="pin_popup_wrong_pin_title">Λάθος PIN</string>
+    <string name="registration_user_consent_message">Για τη συνεχή βελτίωση της εφαρμογής, αναλύουμε τη χρήση της εφαρμογής και των λειτουργιών της χωρίς συσχέτιση με το πρόσωπό σας. Αυτή η λειτουργία μπορεί να απενεργοποιηθεί οποιαδήποτε στιγμή από το Menu &gt; Settings &gt; Analytics (Μενού &gt; Ρυθμίσεις &gt; Ανάλυση).</string>
+    <string name="registration_user_consent_title">Στοιχεία χρήσης Mercedes me</string>
+    <string name="verification_btn_next">Συνέχεια</string>
+    <string name="verification_btn_send_again">Αίτημα νέου κωδικού TAN</string>
+    <string name="verification_headline">Κωδικός επαλήθευσης</string>
+    <string name="verification_login_msg_mail">Καταχωρήστε τον κωδικό TAN, που σας στείλαμε με e-mail.</string>
+    <string name="verification_login_msg_user">Σας στείλαμε για επαλήθευση έναν %1$d-ψήφιο κωδικό σε %2$s. Καταχωρήστε αυτόν τον κωδικό.</string>
+    <string name="verification_not_received">Δεν λάβατε τον κωδικό TAN;</string>
+    <string name="verification_not_received_hint_mail">Ελέγξτε την καταχωρημένη διεύθυνση e-mail ή ζητήστε νέο κωδικό επαλήθευσης.</string>
+    <string name="verification_not_received_hint_phone">Ελέγξτε τον καταχωρημένο αριθμό κινητού ή ζητήστε έναν νέο κωδικό TAN.</string>
+    <string name="verification_send_again_msg">Το αίτημά σας υποβλήθηκε ξανά</string>
+    <string name="verification_title">Επαλήθευση</string>
+</resources>

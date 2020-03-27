@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="ris_black">#FF000000</color>
+    <color name="ris_grey0">#FF1F1F1F</color>
+    <color name="ris_grey1">#FF3C3C3C</color>
+    <color name="ris_grey2">#FF666666</color>
+    <color name="ris_grey3">#FFDDDDDD</color>
+    <color name="ris_grey4">#FFECECEC</color>
+    <color name="ris_grey5">#F4F4F4</color>
+    <color name="ris_grey6">#F8F8F8</color>
+    <color name="ris_white">#FFFFFFFF</color>
+    <color name="ris_accent_primary">#FF3088C5</color>
+    <color name="ris_accent_secondary">#FF3FACF2</color>
+    <color name="ris_status_error">#FF9F1901</color>
+    <color name="ris_status_medium">#FFF8BE02</color>
+    <color name="ris_status_success">#FF338A00</color>
+    <color name="ris_status_error_darkbackground">#FFE50013</color>
+    <color name="ris_status_medium_darkbackground">#FFFFC619</color>
+    <color name="ris_status_success_darkbackground">#FF00F279</color>
+    <color name="ris_status_error_brightbackground">#FFE50013</color>
+    <color name="ris_status_medium_brightbackground">#FFDCA600</color>
+    <color name="ris_status_success_brightbackground">#FF00B359</color>
+    <color name="ris_emphasis_secondary">#80000000</color>
+    <color name="ris_emphasis_tertiary">#22000000</color>
+    <color name="ris_yellow_brightbackground">#DCA600</color>
+    <color name="ris_yellow_darkbackground">#FFC619</color>
+    <color name="ris_green_brightbackground">#00B359</color>
+    <color name="ris_green_darkbackground">#00F279</color>
+
+    <!-- Rising Start Palette -->
+    <color name="mb_black">@color/ris_black</color>
+    <color name="mb_grey0">@color/ris_grey0</color>
+    <color name="mb_grey1">@color/ris_grey1</color>
+    <color name="mb_grey2">@color/ris_grey2</color>
+    <color name="mb_grey3">@color/ris_grey3</color>
+    <color name="mb_grey4">@color/ris_grey4</color>
+    <color name="mb_grey5">@color/ris_grey5</color>
+    <color name="mb_grey6">@color/ris_grey6</color>
+    <color name="mb_white">@color/ris_white</color>
+    <color name="mb_accent_primary">@color/ris_accent_primary</color>
+    <color name="mb_accent_secondary">@color/ris_accent_secondary</color>
+    <color name="mb_status_error">@color/ris_status_error</color>
+    <color name="mb_status_medium">@color/ris_status_medium</color>
+    <color name="mb_status_success">@color/ris_status_success</color>
+
+    <!-- Custom: RiS colors with opacity -->
+    <color name="mb_accent_primary_inactive">#7F3088C5</color>
+    <color name="mb_accent_secondary_inactive">#7F3FACF2</color>
+    <color name="mb_text_button_pressed">#3300ACF2</color>
+    <color name="mb_secondary_text_button_disabled">#7F666666</color>
+
+    <!-- Reference colors -->
+    <color name="mb_default_background">@color/mb_white</color>
+    <color name="mb_grey_background">@color/mb_grey4</color>
+    <color name="mb_text_color_primary">@color/mb_black</color>
+    <color name="mb_text_color_secondary">@color/ris_emphasis_secondary</color>
+    <color name="mb_text_color_tertiary">@color/ris_emphasis_tertiary</color>
+    <color name="mb_text_color_inverse">@color/mb_white</color>
+    <color name="mb_divider_color">@color/mb_grey3</color>
+
+    <!-- New button colors -->
+    <color name="mb_button_primary_background">#0088C6</color>
+    <color name="mb_button_primary_background_disabled">#800088C6</color>
+    <color name="mb_button_primary_background_pressed">#3FACF2</color>
+    <color name="mb_button_primary_outline">#3088c5</color>
+    <color name="mb_button_primary_outline_disabled">#803088c5</color>
+    <color name="mb_button_primary_enabled_reflex_gradient_color_start">#4DFFFFFF</color>
+    <color name="mb_button_primary_disabled_reflex_gradient_color_start">#26FFFFFF</color>
+    <color name="mb_button_primary_background_gradient_color_start">#33FFFFFF</color>
+    <color name="mb_button_primary_gradient_color_end">#00FFFFFF</color>
+</resources>

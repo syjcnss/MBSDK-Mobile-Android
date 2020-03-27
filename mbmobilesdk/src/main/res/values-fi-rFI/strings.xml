@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Olet syöttänyt PIN-koodisi väärin %1$d kertaa. Mercedes me -tunnuksesi on estetty täten %2$s ajaksi.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minuuttia</string>
+    <string name="command_error_pin_invalid">Olet syöttänyt PIN-koodisi %1$d kertaa väärin.</string>
+    <string name="general_cancel">Keskeytä</string>
+    <string name="general_error_msg">Tapahtui virhe. Yritä uudelleen.</string>
+    <string name="general_error_network_msg">Jokin meni pieleen. Tarkasta Internet-yhteys.</string>
+    <string name="general_error_title">Häiriö</string>
+    <string name="general_hint">Huomautus</string>
+    <string name="general_no">Ei</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Kyllä</string>
+    <string name="login_error_authentication_failed">Tunnistus epäonnistui. Yritä uudelleen.</string>
+    <string name="login_error_wrong_tan">Syöttämäsi tieto ei valitettavasti ollut oikea. Ota huomioon, että sinun on mahdollisesti odotettava muutama minuutti ennen uudelleen yrittämistä.</string>
+    <string name="login_info_alert_message">Mercedes me -tunnus koostuu joko henkilökohtaisesta matkapuhelinnumerostasi tai sähköpostiosoitteestasi. Omalla Mercedes me -tunnuksellasi voit kirjautua sisään kaikkiin Mercedes-Benzin digitaalisiin palveluihin. Pääset sillä kaikkiin asuinmaassasi käytettävissä oleviin palveluihin, toimintoihin ja kaikille alustoille.</string>
+    <string name="login_info_alert_title">Mercedes me -tunnus</string>
+    <string name="login_invalid_input">Syötä voimassa oleva sähköpostiosoite tai puhelinnumero.</string>
+    <string name="login_mercedesme_id">Mercedes me -tunnus</string>
+    <string name="login_next">Jatka</string>
+    <string name="login_only_caption">Kirjaudu sis</string>
+    <string name="login_username">Matkapuhelinnumero tai sähköpostiosoite</string>
+    <string name="login_user_not_registered">Rekisteröidy ilmaiseksi johonkin toiseen Mercedes me -sovellukseen.</string>
+    <string name="pin_popup_button_again">Yritä uudelleen</string>
+    <string name="pin_popup_cancel">Keskeytä</string>
+    <string name="pin_popup_default_no_pin_message">Määritä jossakin Mercedes me -sovelluksessa PIN.</string>
+    <string name="pin_popup_description">Kirjoita %1$d-numeroinen PIN-koodisi:</string>
+    <string name="pin_popup_send">Lähetä</string>
+    <string name="pin_popup_title">PIN-koodin syöttäminen</string>
+    <string name="pin_popup_wrong_pin_msg">PIN-koodi ei ole oikein. Yritä uudelleen.</string>
+    <string name="pin_popup_wrong_pin_title">Väärä PIN-koodi</string>
+    <string name="registration_user_consent_message">Analysoimme sovelluksen ja sen toimintojen käyttöä liittämättä niitä henkilötietoihin parantaaksemme sovellusta jatkuvasti. Tämä toiminto voidaan deaktivoida milloin tahansa kohdassa Valikko &gt; Asetukset &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Mercedes me -käyttötiedot</string>
+    <string name="verification_btn_next">Jatka</string>
+    <string name="verification_btn_send_again">Pyydä uusi TAN-koodi</string>
+    <string name="verification_headline">Varmennuskoodi</string>
+    <string name="verification_login_msg_mail">Kirjoita TAN-koodi, jonka sait meiltä sähköpostitse.</string>
+    <string name="verification_login_msg_user">Olemme lähettäneet sinulle varmennusta varten %1$d-numeroisen koodin osoitteeseen %2$s. Syötä tämä koodi.</string>
+    <string name="verification_not_received">Etkö ole saanut TAN-koodia?</string>
+    <string name="verification_not_received_hint_mail">Tarkasta syöttämäsi sähköpostiosoite tai pyydä uusi varmennuskoodi.</string>
+    <string name="verification_not_received_hint_phone">Tarkasta syöttämäsi matkapuhelinnumero tai pyydä uusi TAN-koodi.</string>
+    <string name="verification_send_again_msg">Kyselysi on lähetetty uudelleen.</string>
+    <string name="verification_title">Varmistus</string>
+</resources>

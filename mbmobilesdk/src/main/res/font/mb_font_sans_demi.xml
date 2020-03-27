@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="600"
+        android:font="@font/daimler_cs_demi"
+        app:fontStyle="normal"
+        app:fontWeight="600"
+        app:font="@font/daimler_cs_demi"/>
+
+</font-family>

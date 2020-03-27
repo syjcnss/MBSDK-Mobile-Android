@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Du har indtastet den forkerte pinkode %1$d gange. Dit Mercedes me ID er derfor blevet blokeret i %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minutter</string>
+    <string name="command_error_pin_invalid">Du har indtastet den forkerte pinkode %1$d gange.</string>
+    <string name="general_cancel">Annullér</string>
+    <string name="general_error_msg">Der er opstået en fejl. Prøv igen.</string>
+    <string name="general_error_network_msg">Noget gik galt. Tjek venligst din internetforbindelse.</string>
+    <string name="general_error_title">Fejl</string>
+    <string name="general_hint">Bemærk</string>
+    <string name="general_no">Nej</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Ja</string>
+    <string name="login_error_authentication_failed">Autentificeringen mislykkedes. Prøv igen.</string>
+    <string name="login_error_wrong_tan">Desværre var de oplysninger, du har indtastet, ikke korrekte. Vær opmærksom på, at du evt. skal vente nogle minutter, før du prøver igen.</string>
+    <string name="login_info_alert_message">Mercedes me ID består enten af dit personlige mobilnummer eller din e-mailadresse. Med dit Mercedes me ID kan du logge dig ind overalt i Mercedes-Benz\' digitale verden. Du får på den måde adgang til alle de tjenester, funktioner og platforme, som er til rådighed i det land, du bor i.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Indtast en gyldig e-mailadresse eller et gyldigt telefonnummer.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Fortsæt</string>
+    <string name="login_only_caption">Login</string>
+    <string name="login_username">Mobilnummer eller e-mailadresse</string>
+    <string name="login_user_not_registered">Registrér dig gratis i en af de andre Mercedes me apps.</string>
+    <string name="pin_popup_button_again">Forsøg igen</string>
+    <string name="pin_popup_cancel">Annullér</string>
+    <string name="pin_popup_default_no_pin_message">Definér en pinkode i en af Mercedes me appsene.</string>
+    <string name="pin_popup_description">Indtast din %1$d-cifrede pinkode:</string>
+    <string name="pin_popup_send">Send</string>
+    <string name="pin_popup_title">Indtast pinkode</string>
+    <string name="pin_popup_wrong_pin_msg">Pinkoden er ikke korrekt. Prøv igen.</string>
+    <string name="pin_popup_wrong_pin_title">Forkert pinkode</string>
+    <string name="registration_user_consent_message">For at forbedre appen løbende analyserer vi brugen af appen og dens funktioner uden reference til din person. Denne funktion kan til enhver tid deaktiveres via Menu &gt; Indstillinger &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Mercedes me brugsdata</string>
+    <string name="verification_btn_next">Fortsæt</string>
+    <string name="verification_btn_send_again">Anmod om en ny TAN-kode</string>
+    <string name="verification_headline">Bekræftelseskode</string>
+    <string name="verification_login_msg_mail">Indtast den TAN-kode, som vi har sendt til dig pr. e-mail.</string>
+    <string name="verification_login_msg_user">Vi har sendt en %1$d-cifret kode til %2$s til bekræftelse. Indtast denne kode.</string>
+    <string name="verification_not_received">Ikke modtaget en TAN-kode?</string>
+    <string name="verification_not_received_hint_mail">Tjek den indtastede e-mailadresse, eller anmod om en ny bekræftelseskode.</string>
+    <string name="verification_not_received_hint_phone">Kontrollér det indtastede mobilnummer, eller anmod om en ny TAN-kode.</string>
+    <string name="verification_send_again_msg">Nu er din forespørgsel sendt</string>
+    <string name="verification_title">Verifikation</string>
+</resources>

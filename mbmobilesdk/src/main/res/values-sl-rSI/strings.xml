@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">%1$d-krat ste vnesli napačno številko PIN. Vaš Mercedes me ID je bil zato blokiran za %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minut</string>
+    <string name="command_error_pin_invalid">%1$d-krat ste napačno vnesli kodo PIN.</string>
+    <string name="general_cancel">Prekini</string>
+    <string name="general_error_msg">Prišlo je do napake. Poskusite znova.</string>
+    <string name="general_error_network_msg">Prišlo je do napake. Preverite internetno povezavo.</string>
+    <string name="general_error_title">Napaka</string>
+    <string name="general_hint">Opomba</string>
+    <string name="general_no">Ne</string>
+    <string name="general_ok">V redu</string>
+    <string name="general_yes">Da</string>
+    <string name="login_error_authentication_failed">Preverjanje pristnosti ni bilo uspešno. Poskusite znova.</string>
+    <string name="login_error_wrong_tan">Podatek, ki ste ga navedli, žal ni pravilen. Pred vnovičnim poskusom boste morda morali počakati nekaj minut.</string>
+    <string name="login_info_alert_message">Koda Mercedes me ID je sestavljena iz vaše telefonske številke ali vašega elektronskega naslova. S kodo Mercedes me ID se lahko prijavite povsod v digitalnem svetu Mercedes-Benz. Koda Mercedes me ID omogoča dostop do vseh storitev, funkcij in platform, ki so na voljo v vaši državi.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Vnesite veljaven elektronski naslov ali telefonsko številko.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Naprej</string>
+    <string name="login_only_caption">Prijava</string>
+    <string name="login_username">Telefonska številka ali elektronski naslov</string>
+    <string name="login_user_not_registered">Brezplačno se registrirajte v kateri drugi aplikaciji Mercedes me.</string>
+    <string name="pin_popup_button_again">Poskusi znova</string>
+    <string name="pin_popup_cancel">Prekini</string>
+    <string name="pin_popup_default_no_pin_message">Prosimo, da v kateri od aplikacij Mercedes me ustvarite PIN.</string>
+    <string name="pin_popup_description">Vnesite svojo %1$d-mestno kodo PIN:</string>
+    <string name="pin_popup_send">Pošlji</string>
+    <string name="pin_popup_title">Vnos kode PIN</string>
+    <string name="pin_popup_wrong_pin_msg">Koda PIN ni pravilna. Poskusite znova.</string>
+    <string name="pin_popup_wrong_pin_title">Napačna koda PIN</string>
+    <string name="registration_user_consent_message">Uporabo aplikacije in njenih funkcij anonimno analiziramo, da lahko nenehno izpopolnjujemo aplikacijo. To funkcijo lahko kadar koli deaktivirate prek aplikacije Meni &gt; Nastavitve &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Podatki o uporabi Mercedes me</string>
+    <string name="verification_btn_next">Naprej</string>
+    <string name="verification_btn_send_again">Zahtevaj novo kodo TAN</string>
+    <string name="verification_headline">Potrditvena koda</string>
+    <string name="verification_login_msg_mail">Vnesite kodo TAN, ki smo vam jo poslali po elektronski pošti.</string>
+    <string name="verification_login_msg_user">Z namenom preverjanja pristnosti smo vam poslali %1$d-mestno kodo na %2$s. Prosimo, vnesite to kodo.</string>
+    <string name="verification_not_received">Niste prejeli kode TAN?</string>
+    <string name="verification_not_received_hint_mail">Preverite navedeni e-poštni naslov ali zahtevajte novo potrditveno kodo.</string>
+    <string name="verification_not_received_hint_phone">Preverite navedeno številko mobilnega telefona ali zahtevajte novo kodo TAN.</string>
+    <string name="verification_send_again_msg">Vaše povpraševanje smo znova poslali</string>
+    <string name="verification_title">Preverjanje pristnosti</string>
+</resources>

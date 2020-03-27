@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">Der PIN ist nicht gültig.</string>
+    <string name="command_error_blocked_ciam_id">Sie haben Ihre PIN %1$d mal falsch eingegeben. Ihre Mercedes me ID wurde somit für %2$s blockiert.</string>
+    <string name="command_error_minute">%1$d Minute</string>
+    <string name="command_error_minutes">%1$d Minuten</string>
+    <string name="command_error_pin_invalid">Sie haben Ihren PIN %1$d mal falsch eingegeben.</string>
+    <string name="general_cancel">Abbrechen</string>
+    <string name="general_error_msg">Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.</string>
+    <string name="general_error_network_msg">Etwas ist schiefgelaufen. Bitte überprüfen Sie Ihre Internetverbindung.</string>
+    <string name="general_error_title">Fehler</string>
+    <string name="general_hint">Hinweis</string>
+    <string name="general_no">Nein</string>
+    <string name="general_ok">Ok</string>
+    <string name="general_yes">Ja</string>
+    <string name="login_error_authentication_failed">Die Authentifizierung ist fehlgeschlagen. Bitte versuchen Sie es erneut.</string>
+    <string name="login_error_wrong_tan">Leider war die von Ihnen eingegebene Information nicht korrekt. Bitte beachten Sie, dass Sie ggf. wenige Minuten vor einem erneuten Versuch warten müssen.</string>
+    <string name="login_info_alert_message">Die Mercedes me ID besteht entweder aus Ihrer persönlichen Mobilnummer oder Ihrer E-Mail Adresse. Mit Ihrer Mercedes me ID können Sie sich überall in der digitalen Welt von Mercedes-Benz anmelden. Sie bietet Zugang zu allen in Ihrem Adressland verfügbaren Diensten, Funktionen und Plattformen.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Bitte geben Sie eine gültige E-Mail-Adresse oder Telefonnummer ein.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Weiter</string>
+    <string name="login_only_caption">Anmelden</string>
+    <string name="login_username">Mobilnummer oder E-Mail Adresse</string>
+    <string name="login_user_not_registered">Bitte registrieren Sie sich kostenlos in einer der anderen Mercedes me Apps.</string>
+    <string name="pin_popup_button_again">Erneut versuchen</string>
+    <string name="pin_popup_cancel">Abbrechen</string>
+    <string name="pin_popup_default_no_pin_message">Bitte setzen Sie den PIN in einer der anderen Mercedes me Apps.</string>
+    <string name="pin_popup_description">Bitte geben Sie Ihre %1$d-stellige PIN ein:</string>
+    <string name="pin_popup_send">Senden</string>
+    <string name="pin_popup_title">PIN Eingabe</string>
+    <string name="pin_popup_wrong_pin_msg">Die PIN ist nicht korrekt. Bitte versuchen Sie es erneut.</string>
+    <string name="pin_popup_wrong_pin_title">Falsche PIN</string>
+    <string name="registration_user_consent_message">Um die App kontinuierlich zu verbessern, analysieren wir die Nutzung der App und ihrer Funktionen ohne Bezug zu Ihrer Person. Diese Funktion kann jederzeit über Menü &gt; Einstellungen &gt; Analytics deaktiviert werden.</string>
+    <string name="registration_user_consent_title">Mercedes me Nutzungsdaten</string>
+    <string name="verification_btn_next">Weiter</string>
+    <string name="verification_btn_send_again">Neuen Verifizierungscode anfordern</string>
+    <string name="verification_headline">Verifizierungscode</string>
+    <string name="verification_login_msg_mail">Wir haben Ihnen zur Verifizierung einen Code an Ihre E-Mail Adresse gesendet. Bitte geben Sie diesen Code ein.</string>
+    <string name="verification_login_msg_user">Wir haben Ihnen zur Verifizierung einen %1$d-stelligen Code an %2$s gesendet. Bitte geben Sie diesen Code ein.</string>
+    <string name="verification_not_received">Keinen Verifizierungscode erhalten?</string>
+    <string name="verification_not_received_hint_mail">Bitte überprüfen Sie die eingegebene E-Mail Adresse oder fordern Sie einen neuen Verifizierungscode an.</string>
+    <string name="verification_not_received_hint_phone">Bitte überprüfen Sie die eingegebene Mobilnummer oder fordern Sie einen neuen Verifizierungscode an.</string>
+    <string name="verification_send_again_msg">Ihre Anfrage wurde erneut gesendet</string>
+    <string name="verification_title">Verifizierung</string>
+</resources>

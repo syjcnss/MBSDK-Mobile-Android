@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.daimler.mbmobilesdk.ui.components.viewmodels.MBGenericDialogViewModel" />
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mb_default_background"
+        android:minWidth="@dimen/mb_dialog_min_width"
+        android:paddingBottom="@dimen/mb_unit_x2">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/MBTextAppearance.H4.Serif"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mb_unit_x4"
+            android:layout_marginTop="@dimen/mb_unit_x3"
+            android:layout_marginEnd="@dimen/mb_unit_x4"
+            android:layout_marginBottom="@dimen/mb_unit_x3"
+            android:gravity="center"
+            android:text="@{model.title}"
+            android:visibility="@{model.title != null}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Validierung" />
+
+        <FrameLayout
+            android:id="@+id/view_container_top"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            style="@style/MBTextAppearance.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mb_unit_x4"
+            android:layout_marginTop="@dimen/mb_margin_default"
+            android:layout_marginEnd="@dimen/mb_unit_x4"
+            android:gravity="center"
+            android:text="@{model.message}"
+            android:visibility="@{TextUtils.isEmpty(model.message) ? View.GONE : View.VISIBLE}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_container_top"
+            tools:text="Bitte geben Sie ihren derzeitigen Pin ein um die Änderung zu bestätigen." />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginStart="@dimen/mb_unit_x4"
+            android:layout_marginTop="@dimen/mb_unit_x5"
+            android:layout_marginEnd="@dimen/mb_unit_x4"
+            android:background="@color/mb_divider_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_message" />
+
+        <FrameLayout
+            android:id="@+id/view_container_bottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_divider" />
+
+        <LinearLayout
+            android:id="@+id/view_container_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mb_margin_small"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_container_bottom" />
+
+        <com.daimler.mbmobilesdk.ui.components.dialogfragments.buttons.DialogFragmentButtonGroup
+            android:id="@+id/view_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:buttons="@{model.buttons}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_container_bottom"
+            app:listener="@{model}"
+            app:orientation="@{model.buttonOrientation}" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

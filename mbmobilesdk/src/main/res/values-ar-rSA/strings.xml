@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="command_error_blocked_ciam_id">لقد أدخلت رقم التعريف الشخصي PIN الخاص بك %1$d بشكل خاطئ. وبالتالي، تم حظر مُعرّف Mercedes me الخاص بك من أجل %1$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d دقائق</string>
+    <string name="command_error_pin_invalid">لقد أدخلت رقم التعريف الشخصي PIN الخاص بك %1$d بشكل خاطئ.</string>
+    <string name="general_cancel">إلغاء</string>
+    <string name="general_error_msg">حدث خطأ. يرجى المحاولة مجددا.</string>
+    <string name="general_error_network_msg">حدث خطأ ما. يرجى مراجعة الاتصال بالإنترنت.</string>
+    <string name="general_error_title">خطأ</string>
+    <string name="general_hint">ملحوظة</string>
+    <string name="general_no">لا</string>
+    <string name="general_ok">موافق</string>
+    <string name="general_yes">نعم</string>
+    <string name="login_error_authentication_failed">فشلت عملية المصادقة. يرجى المحاولة مجددا.</string>
+    <string name="login_error_wrong_tan">للأسف، المعلومات التي قمتَ بإدخالها ليست صحيحة. يُرجى مراعاة أنه قد يتعين عليك الانتظار عدة دقائق قبل إجراء محاولة جديدة.</string>
+    <string name="login_info_alert_message">تتكون هوية Mercedes me إما من رقم هاتفك الجوال الشخصي أو عنوان بريدك الإلكتروني. بواسطة هوية Mercedes me الخاصة بك تستطيع تسجيل الدخول إلى العالم الرقمي لمرسيدس ــ بنز من أي مكان. فهي تتيح الدخول إلى جميع الخدمات والوظائف والمنصات المتاحة في بلدك.</string>
+    <string name="login_info_alert_title">هوية Mercedes me</string>
+    <string name="login_invalid_input">يُرجى إدخال عنوان بريد إلكتروني أو رقم هاتف صالح.</string>
+    <string name="login_mercedesme_id">هوية Mercedes me</string>
+    <string name="login_next">مواصلة</string>
+    <string name="login_username">رقم الهاتف الجوال أو عنوان البريد الإلكتروني</string>
+    <string name="pin_popup_button_again">إعادة البحث</string>
+    <string name="pin_popup_cancel">إلغاء</string>
+    <string name="pin_popup_description">يُرجى إدخال كود PIN الخاص بك والمكون من %1$d خانات:</string>
+    <string name="pin_popup_send">إرسال</string>
+    <string name="pin_popup_title">إدخال كود PIN</string>
+    <string name="pin_popup_wrong_pin_msg">كود PIN غير صحيح. يرجى المحاولة مجدداً.</string>
+    <string name="pin_popup_wrong_pin_title">كود PIN خطأ</string>
+    <string name="registration_user_consent_message">لتحسين التطبيق باستمرار، نقوم بتحليل استخدام التطبيق ووظائفه دون الرجوع إلى شخصك. يمكن تعطيل هذه الوظيفة في أي وقت من خلال القائمة &gt; الإعدادات &gt; التحليلات.</string>
+    <string name="registration_user_consent_title">بيانات استخدام Mercedes me</string>
+    <string name="verification_btn_next">‫مواصلة‬</string>
+    <string name="verification_btn_send_again">طلب كود TAN جديد</string>
+    <string name="verification_headline">كود التحقق</string>
+    <string name="verification_login_msg_mail">رجاءً أدخل كود TAN الذي قمنا بإرساله إليك عبر البريد الإلكتروني.</string>
+    <string name="verification_login_msg_user">لغرض التحقق، أرسلنا إليك كوداً يتكون من %1$d خانات إلى %2$s. يُرجى إدخال هذا الكود.</string>
+    <string name="verification_not_received">ألم تحصل على كود TAN؟</string>
+    <string name="verification_not_received_hint_mail">يُرجى مراجعة عنوان البريد الإلكتروني الذي أدخلته أو اطلب كود تحقق جديد.</string>
+    <string name="verification_not_received_hint_phone">يُرجى مراجعة رقم الهاتف الجوال الذي تم إدخاله أو اطلب كود TAN جديد.</string>
+    <string name="verification_send_again_msg">تم إرسال طلبك من جديد.</string>
+    <string name="verification_title">تحقق</string>
+</resources>

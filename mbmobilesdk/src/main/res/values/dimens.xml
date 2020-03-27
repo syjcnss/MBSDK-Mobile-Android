@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="top_shadow_height">5dp</dimen>
+
+    <dimen name="login_me_id_icon_size">@dimen/mb_unit_x12</dimen>
+    <dimen name="login_me_id_icon_padding">12dp</dimen>
+
+    <dimen name="verification_legal_height">78dp</dimen>
+
+    <dimen name="mb_unit_x1">4dp</dimen>
+    <dimen name="mb_unit_x2">8dp</dimen>
+    <dimen name="mb_unit_x3">12dp</dimen>
+    <dimen name="mb_unit_x4">16dp</dimen>
+    <dimen name="mb_unit_x4_5">18dp</dimen>
+    <dimen name="mb_unit_x5">20dp</dimen>
+    <dimen name="mb_unit_x5_5">22dp</dimen>
+    <dimen name="mb_unit_x6">24dp</dimen>
+    <dimen name="mb_unit_x6_5">26dp</dimen>
+    <dimen name="mb_unit_x7">28dp</dimen>
+    <dimen name="mb_unit_x8">32dp</dimen>
+    <dimen name="mb_unit_x9">36dp</dimen>
+    <dimen name="mb_unit_x10">40dp</dimen>
+    <dimen name="mb_unit_x11">44dp</dimen>
+    <dimen name="mb_unit_x12">48dp</dimen>
+
+    <dimen name="mb_margin_tiny">@dimen/mb_unit_x1</dimen>
+    <dimen name="mb_margin_small">@dimen/mb_unit_x2</dimen>
+    <dimen name="mb_margin_default">@dimen/mb_unit_x4</dimen>
+    <dimen name="mb_margin_large">@dimen/mb_unit_x8</dimen>
+
+    <dimen name="mb_padding_menu_item">@dimen/mb_unit_x3</dimen>
+
+    <dimen name="mb_menu_item_size">@dimen/mb_unit_x8</dimen>
+
+    <dimen name="mb_dialog_min_width">250dp</dimen>
+
+    <dimen name="mb_menu_header_image_size">80dp</dimen>
+    <dimen name="mb_menu_header_icon_size">12dp</dimen>
+
+    <dimen name="dialog_min_width">250dp</dimen>
+
+    <dimen name="mb_button_corner_radius">10dp</dimen>
+    <dimen name="mb_button_stroke_width">1dp</dimen>
+    <dimen name="mb_edittext_height">48dp</dimen>
+    <dimen name="mb_edittext_corner_radius">5dp</dimen>
+    <dimen name="mb_edittext_text_bottom_padding">6dp</dimen>
+    <dimen name="mb_progress_bar_size">24dp</dimen>
+    <dimen name="mb_divider_height">1dp</dimen>
+
+    <dimen name="mb_primary_button_elevation">4dp</dimen>
+
+</resources>

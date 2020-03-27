@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MBTextAppearance">
+        <item name="android:textColor">@color/mb_text_color_primary</item>
+        <item name="android:fontFamily">@font/mb_font_sans</item>
+    </style>
+
+    <style name="MBTextAppearance.H4">
+        <item name="android:textSize">@dimen/mb_font_size_headline_4</item>
+    </style>
+
+    <style name="MBTextAppearance.H5">
+        <item name="android:textSize">@dimen/mb_font_size_headline_5</item>
+    </style>
+
+    <style name="MBTextAppearance.H6">
+        <item name="android:textSize">@dimen/mb_font_size_headline_6</item>
+    </style>
+
+    <style name="MBTextAppearance.H4.Serif">
+        <item name="android:fontFamily">@font/mb_font_serif</item>
+    </style>
+
+    <style name="MBTextAppearance.H5.Serif">
+        <item name="android:fontFamily">@font/mb_font_serif</item>
+    </style>
+
+    <style name="MBTextAppearance.H6.Serif">
+        <item name="android:fontFamily">@font/mb_font_serif</item>
+    </style>
+
+    <style name="MBTextAppearance.Body1">
+        <item name="android:textSize">@dimen/mb_font_size_body_1</item>
+    </style>
+
+    <style name="MBTextAppearance.Body2">
+        <item name="android:textSize">@dimen/mb_font_size_body_2</item>
+    </style>
+
+    <style name="MBTextAppearance.Subtitle1">
+        <item name="android:textSize">@dimen/mb_font_size_subtitle_1</item>
+    </style>
+
+    <style name="MBTextAppearance.Subtitle2">
+        <item name="android:textSize">@dimen/mb_font_size_subtitle_2</item>
+    </style>
+
+    <style name="MBTextAppearance.Caption">
+        <item name="android:textSize">@dimen/mb_font_size_caption</item>
+    </style>
+
+    <style name="MBTextAppearance.Overline">
+        <item name="android:textSize">@dimen/mb_font_size_overline</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/mb_font_sans_demi</item>
+    </style>
+
+    <style name="MBTextAppearance.Button">
+        <item name="android:textSize">@dimen/mb_font_size_button</item>
+        <item name="android:fontFamily">@font/mb_font_sans_demi</item>
+        <item name="android:textColor">@color/mb_white</item>
+    </style>
+</resources>

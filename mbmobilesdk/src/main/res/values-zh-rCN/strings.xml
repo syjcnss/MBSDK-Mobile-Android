@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">您輸錯了 %1$d 次 PIN 碼。因此您的 Mercedes me ID 被鎖定了 %2$s。</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d 分鐘</string>
+    <string name="command_error_pin_invalid">您輸錯了 %1$d 次 PIN 碼。</string>
+    <string name="general_cancel">取消</string>
+    <string name="general_error_msg">發生錯誤。請再試一次。</string>
+    <string name="general_error_network_msg">發生錯誤。請檢查您的網路連線。</string>
+    <string name="general_error_title">錯誤</string>
+    <string name="general_hint">注意事項</string>
+    <string name="general_no">否</string>
+    <string name="general_ok">Ok</string>
+    <string name="general_yes">是</string>
+    <string name="login_error_authentication_failed">驗證失敗。請再試一次。</string>
+    <string name="login_error_wrong_tan">您輸入的 TAN 不正確。請檢查您的輸入。</string>
+    <string name="login_info_alert_message">Mercedes me ID 可以是您的個人行動電話號碼或電子郵件地址。使用 Mercedes me ID 即可從任何地方登入 Mercedes-Benz 的數位世界。它讓您可以使用您地址所在國所有可用的服務、功能和平台。</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">請輸入一個有效的電子郵件地址或電話號碼。</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">繼續</string>
+    <string name="login_only_caption">登入</string>
+    <string name="login_username">行動電話號碼或電子郵件地址</string>
+    <string name="login_user_not_registered">請在其他 Mercedes me App 中的一個上進行免費註冊</string>
+    <string name="pin_popup_button_again">再試一次</string>
+    <string name="pin_popup_cancel">取消</string>
+    <string name="pin_popup_default_no_pin_message">請在一款 Mercedes me 應用程式中確定 PIN 碼。\n</string>
+    <string name="pin_popup_description">請輸入您的 %1$d 位數 PIN 碼：</string>
+    <string name="pin_popup_send">傳送</string>
+    <string name="pin_popup_title">輸入 PIN 碼</string>
+    <string name="pin_popup_wrong_pin_msg">PIN 碼不正確。請再試一次。</string>
+    <string name="pin_popup_wrong_pin_title">錯誤的 PIN 碼</string>
+    <string name="registration_user_consent_message">為持續提升應用程式的品質，我們會以匿名方式分析應用程式的使用情形和其功能。此功能可隨時透過功能表 &gt; 設定 &gt; 分析來關閉。</string>
+    <string name="registration_user_consent_title">Mercedes me 使用資料</string>
+    <string name="verification_btn_next">繼續</string>
+    <string name="verification_btn_send_again">申請新的 TAN 碼</string>
+    <string name="verification_headline">驗證碼</string>
+    <string name="verification_login_msg_mail">請輸入我們以電子郵件發送給您的 TAN 碼。</string>
+    <string name="verification_login_msg_user">我們已將 %1$d 位數驗證代碼傳送至 %2$s。請輸入此代碼。</string>
+    <string name="verification_not_received">未收到 TAN 代碼？</string>
+    <string name="verification_not_received_hint_mail">請檢查輸入的電子郵件地址或請求一個新的驗證碼。</string>
+    <string name="verification_not_received_hint_phone">請檢查輸入的行動電話號碼或索取一個新的 TAN 代碼。</string>
+    <string name="verification_send_again_msg">您的詢問已重新傳送</string>
+    <string name="verification_title">認證</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MBLoadingSpinner" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/mb_progress_indicator</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:minWidth">@dimen/mb_progress_bar_size</item>
+        <item name="android:maxWidth">@dimen/mb_progress_bar_size</item>
+        <item name="android:minHeight">@dimen/mb_progress_bar_size</item>
+        <item name="android:maxHeight">@dimen/mb_progress_bar_size</item>
+    </style>
+
+    <style name="MBLoadingBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/mb_seekbar_track</item>
+    </style>
+</resources>

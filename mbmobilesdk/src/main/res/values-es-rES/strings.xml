@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Has introducido %1$d veces un PIN incorrecto. Tu ID de Mercedes me permanecerá bloqueado durante %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minutos</string>
+    <string name="command_error_pin_invalid">Has introducido %1$d veces un PIN incorrecto.</string>
+    <string name="general_cancel">Cancelar</string>
+    <string name="general_error_msg">Se ha producido un error. Por favor, inténtalo de nuevo.</string>
+    <string name="general_error_network_msg">Algo ha salido mal. Por favor, comprueba tu conexión a Internet.</string>
+    <string name="general_error_title">Error</string>
+    <string name="general_hint">Nota</string>
+    <string name="general_no">No</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Sí</string>
+    <string name="login_error_authentication_failed">Autentificación fallida. Rogamos que lo intentes de nuevo.</string>
+    <string name="login_error_wrong_tan">Los datos que has introducido no son correctos. Ten en cuenta que es posible que tengas que esperar unos minutos antes de volver a intentarlo.</string>
+    <string name="login_info_alert_message">El ID de Mercedes me se compone de tu número de teléfono móvil personal o bien de tu dirección de correo electrónico. Con el ID de Mercedes me puedes iniciar sesión en todas las páginas del mundo digital de Mercedes-Benz. El ID te brinda acceso a todos los servicios, las funciones y las plataformas disponibles en tu país de residencia.</string>
+    <string name="login_info_alert_title">ID de Mercedes me</string>
+    <string name="login_invalid_input">Indica una dirección de correo electrónico o un número de teléfono móvil válido.</string>
+    <string name="login_mercedesme_id">ID de Mercedes me</string>
+    <string name="login_next">Continuar</string>
+    <string name="login_only_caption">Iniciar sesión</string>
+    <string name="login_username">Número de teléfono móvil o dirección de correo electrónico</string>
+    <string name="login_user_not_registered">"Regístrate de forma gratuita en otra Mercedes me Apps. "</string>
+    <string name="pin_popup_button_again">Intentar de nuevo</string>
+    <string name="pin_popup_cancel">Cancelar</string>
+    <string name="pin_popup_default_no_pin_message">"Define un PIN para una de las Mercedes me App. "</string>
+    <string name="pin_popup_description">Introduce tu PIN de %1$d cifras:</string>
+    <string name="pin_popup_send">Enviar</string>
+    <string name="pin_popup_title">Entrada de PIN</string>
+    <string name="pin_popup_wrong_pin_msg">El PIN es incorrecto. Rogamos que lo intentes de nuevo.</string>
+    <string name="pin_popup_wrong_pin_title">PIN erróneo</string>
+    <string name="registration_user_consent_message">Con el fin de mejorar de forma continuada la aplicación, analizamos los datos de uso de la misma y de sus funciones de forma anonimizada. Puedes desactivar esta función en cualquier momento, bajo el menú &gt; Configuración &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Datos de uso de Mercedes me</string>
+    <string name="verification_btn_next">Continuar</string>
+    <string name="verification_btn_send_again">Solicitar nuevo código TAN</string>
+    <string name="verification_headline">Código de verificación</string>
+    <string name="verification_login_msg_mail">Introduce el código TAN que te hemos enviado por correo electrónico.</string>
+    <string name="verification_login_msg_user">Te hemos enviado un código de %1$d cifras a %2$s para la verificación. Por favor, introduce este código.</string>
+    <string name="verification_not_received">¿No has recibido ningún código TAN?</string>
+    <string name="verification_not_received_hint_mail">Comprueba la dirección de correo electrónico introducida o solicita un nuevo código de verificación.</string>
+    <string name="verification_not_received_hint_phone">Comprueba el número de teléfono móvil introducido o solicita un nuevo código TAN.</string>
+    <string name="verification_send_again_msg">Tu consulta se ha enviado de nuevo</string>
+    <string name="verification_title">Verificación</string>
+</resources>

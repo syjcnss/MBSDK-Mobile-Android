@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="state_error" format="boolean" />
+
+    <declare-styleable name="MBPinTextInput">
+        <attr name="inputLength" format="integer" />
+        <attr name="android:inputType" />
+        <attr name="spacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="StatefulEditText">
+        <attr name="isError" format="boolean" />
+        <attr name="dismissErrorOnChange" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Vous avez saisi votre code PIN de manière incorrecte %1$d fois de suite. Votre ID Mercedes me a donc été bloqué pour %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minutes</string>
+    <string name="command_error_pin_invalid">Vous avez saisi votre code PIN %1$d de manière erronée.</string>
+    <string name="general_cancel">Annuler</string>
+    <string name="general_error_msg">Une erreur est survenue. Veuillez réessayer.</string>
+    <string name="general_error_network_msg">Un problème est survenu. Veuillez vérifier votre connexion Internet.</string>
+    <string name="general_error_title">Erreur</string>
+    <string name="general_hint">Remarque</string>
+    <string name="general_no">Non</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Oui</string>
+    <string name="login_error_authentication_failed">L\'authentification a échoué. Veuillez réessayer.</string>
+    <string name="login_error_wrong_tan">Malheureusement, les informations que vous avez saisies sont incorrectes. Veuillez noter qu\'il vous faudra peut-être patienter quelques minutes avant la prochaine tentative.</string>
+    <string name="login_info_alert_message">L\'ID Mercedes me se compose soit de votre numéro de téléphone portable, soit de votre adresse e-mail. Votre ID Mercedes me vous permet de vous connecter au monde numérique de Mercedes-Benz partout dans le monde. Il vous donne accès à tous les services, fonctions et plateformes disponibles dans le pays dans lequel vous vous trouvez.</string>
+    <string name="login_info_alert_title">ID Mercedes me</string>
+    <string name="login_invalid_input">Saisissez une adresse électronique ou un numéro de téléphone corrects.</string>
+    <string name="login_mercedesme_id">ID Mercedes me</string>
+    <string name="login_next">Suivant</string>
+    <string name="login_only_caption">Connexion</string>
+    <string name="login_username">Numéro de téléphone portable ou adresse e-mail</string>
+    <string name="login_user_not_registered">Veuillez vous inscrire gratuitement dans l\'une des autres applis Mercedes me.</string>
+    <string name="pin_popup_button_again">Réessayer</string>
+    <string name="pin_popup_cancel">Annuler</string>
+    <string name="pin_popup_default_no_pin_message">Veuillez définir un code PIN dans l\'une des applications Mercedes me.</string>
+    <string name="pin_popup_description">Veuillez saisir votre PIN à %1$d caractères :</string>
+    <string name="pin_popup_send">Envoyer</string>
+    <string name="pin_popup_title">Saisie du PIN</string>
+    <string name="pin_popup_wrong_pin_msg">Le PIN est incorrect. Veuillez réessayer.</string>
+    <string name="pin_popup_wrong_pin_title">PIN erroné</string>
+    <string name="registration_user_consent_message">Pour pouvoir améliorer sans cesse l’application, nous analysons l’utilisation de l’application et de ses fonctions de manière anonyme. Cette fonction peut être désactivée à tout moment sous Menu &gt; Réglages &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Données d\'utilisation de Mercedes me</string>
+    <string name="verification_btn_next">Continuer</string>
+    <string name="verification_btn_send_again">Demander un nouveau code TAN</string>
+    <string name="verification_headline">Code de vérification</string>
+    <string name="verification_login_msg_mail">Saisissez le code TAN que nous vous avons envoyé par e-mail.</string>
+    <string name="verification_login_msg_user">Nous avons envoyé un code à %1$d caractères à %2$s à des fins de vérification. Veuillez saisir ce code.</string>
+    <string name="verification_not_received">Vous n’avez pas reçu de code TAN ?</string>
+    <string name="verification_not_received_hint_mail">Veuillez vérifier l\'adresse e-mail saisie ou demander un nouveau code de vérification.</string>
+    <string name="verification_not_received_hint_phone">Veuillez vérifier le numéro de téléphone portable indiqué ou demander un nouveau code TAN.</string>
+    <string name="verification_send_again_msg">Votre demande a été renvoyée</string>
+    <string name="verification_title">Vérification</string>
+</resources>

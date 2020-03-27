@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Jūs esat nepareizi ievadījis savu PIN %1$d reizes. Tādēļ jūsu Mercedes me ID %2$s tika bloķēts.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minūtes</string>
+    <string name="command_error_pin_invalid">Jūs esat nepareizi ievadījis savu PIN %1$d reizes.</string>
+    <string name="general_cancel">Atcelt</string>
+    <string name="general_error_msg">Radusies kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="general_error_network_msg">Kaut kas neizdevās. Lūdzu, pārbaudiet savu interneta savienojumu.</string>
+    <string name="general_error_title">Kļūda</string>
+    <string name="general_hint">Norāde</string>
+    <string name="general_no">Nē</string>
+    <string name="general_ok">Labi</string>
+    <string name="general_yes">Jā</string>
+    <string name="login_error_authentication_failed">Autentifikācija neizdevās. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="login_error_wrong_tan">Diemžēl jūsu ievadītā informācija nav pareiza. Lūdzu, ņemiet vērā, ka pirms atkārtota mēģinājuma var būt nepieciešams dažas minūtes nogaidīt.</string>
+    <string name="login_info_alert_message">Mercedes me ID ir jūsu personīgais mobilā tālruņa numurs vai jūsu e-pasta adrese. Ar savu Mercedes me ID varat pieteikties jebkurā Mercedes-Benz digitālās pasaules vietā. Tā nodrošina piekļuvi visiem jūsu valstī pieejamajiem pakalpojumiem, funkcijām un platformām.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Lūdzu, ievadiet derīgu e-pasta adresi vai tālruņa numuru.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Tālāk</string>
+    <string name="login_only_caption">Pieteikšanās</string>
+    <string name="login_username">Mobilā tālruņa numurs vai e-pasta adrese</string>
+    <string name="login_user_not_registered">Lūdzu, bez maksas reģistrējieties kādā no citām Mercedes me lietotnēm.</string>
+    <string name="pin_popup_button_again">Mēģināt vēlreiz</string>
+    <string name="pin_popup_cancel">Atcelt</string>
+    <string name="pin_popup_default_no_pin_message">"Lūdzu, iestatiet PIN kodu kādā no Mercedes me lietotnēm. "</string>
+    <string name="pin_popup_description">Lūdzu, ievadiet jūsu %1$d ciparu PIN kodu:</string>
+    <string name="pin_popup_send">Sūtīt</string>
+    <string name="pin_popup_title">PIN koda ievade</string>
+    <string name="pin_popup_wrong_pin_msg">PIN kods ir nepareizs. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="pin_popup_wrong_pin_title">Nepareizs PIN kods</string>
+    <string name="registration_user_consent_message">Lai varētu nepārtraukti uzlabot lietotni, mēs analizējam lietotnes izmantošanu un tās funkcijas bez piesaistes jūsu personai. Šo funkciju var jebkurā brīdī deaktivizēt sadaļā Izvēlne &gt; Iestatījumi &gt; Analīze.</string>
+    <string name="registration_user_consent_title">Mercedes me lietošanas dati</string>
+    <string name="verification_btn_next">Tālāk</string>
+    <string name="verification_btn_send_again">Pieprasīt jaunu TAN kodu</string>
+    <string name="verification_headline">Verifikācijas kods</string>
+    <string name="verification_login_msg_mail">Lūdzu, ievadiet TAN kodu, kas jums tika nosūtīts e-pastā.</string>
+    <string name="verification_login_msg_user">Verifikācijas nolūkos jums uz %2$s ir nosūtīts %1$d zīmju kods. Lūdzu, ievadiet šo kodu.</string>
+    <string name="verification_not_received">Vai nesaņēmāt TAN kodu?</string>
+    <string name="verification_not_received_hint_mail">Lūdzu, pārbaudiet ievadīto e-pasta adresi vai pieprasiet jaunu verifikācijas kodu.</string>
+    <string name="verification_not_received_hint_phone">Lūdzu, pārbaudiet ievadīto mobilā tālruņa numuru vai pieprasiet jaunu TAN kodu.</string>
+    <string name="verification_send_again_msg">Jūsu pieprasījums tika nosūtīts vēlreiz</string>
+    <string name="verification_title">Verifikācija</string>
+</resources>

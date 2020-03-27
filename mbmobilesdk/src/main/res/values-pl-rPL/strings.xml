@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Kod PIN podano %1$d raz błędny. Twój identyfikator ID do Mercedesa me został zablokowany dla %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minut</string>
+    <string name="command_error_pin_invalid">Kod PIN błędne podano %1$d razy.</string>
+    <string name="general_cancel">Anuluj</string>
+    <string name="general_error_msg">Wystąpił błąd. Prosimy spróbować ponownie.</string>
+    <string name="general_error_network_msg">Coś się nie udało. Sprawdź połączenie internetowe.</string>
+    <string name="general_error_title">Błąd</string>
+    <string name="general_hint">Wskazówka</string>
+    <string name="general_no">Nie</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Tak</string>
+    <string name="login_error_authentication_failed">Rejestracja nie powiodła się. Proszę spróbować ponownie.</string>
+    <string name="login_error_wrong_tan">Niestety, wprowadzona informacja nie była poprawna.Proszę pamiętać, że przed podjęciem kolejnej próby należy ew. kilka minut odczekać.</string>
+    <string name="login_info_alert_message">Mercedes me ID składa się z osobistego numeru telefonu komórkowego lub adresu e-mail. Za pomocą Mercedes me ID można się zalogować wszędzie w cyfrowym świecie Mercedes-Benz. Oferuje on dostęp do wszystkich usług, funkcji i platform dostępnych w Twoim kraju adresowym.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Proszę podać ważny adres e-mail lub numer telefonu komórkowego.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Dalej</string>
+    <string name="login_only_caption">Zaloguj</string>
+    <string name="login_username">Numer telefonu komórkowego lub adres e-mail</string>
+    <string name="login_user_not_registered">Zarejestruj się bezpłatnie w jednej z pozostałych aplikacji Mercedes me.</string>
+    <string name="pin_popup_button_again">Spróbuj ponownie</string>
+    <string name="pin_popup_cancel">Anuluj</string>
+    <string name="pin_popup_default_no_pin_message">Proszę ustalić PIN w jednej z aplikacji Mercedes me.</string>
+    <string name="pin_popup_description">Proszę podać swój %1$d-znakowy kod PIN:</string>
+    <string name="pin_popup_send">Wyślij</string>
+    <string name="pin_popup_title">Wprowadzanie PIN</string>
+    <string name="pin_popup_wrong_pin_msg">Kod PIN jest nieprawidłowy. Prosimy spróbować ponownie.</string>
+    <string name="pin_popup_wrong_pin_title">Nieprawidłowy kod PIN</string>
+    <string name="registration_user_consent_message">Aby stale ulepszać aplikację, analizujemy sposób korzystania z niej i jej funkcje, nie odnosząc tych danych do konkretnej osoby. Tę funkcję można w dowolnym momencie dezaktywować poprzez Menu &gt; Ustawienia &gt; Analiza.</string>
+    <string name="registration_user_consent_title">Dane użytkownika Mercedes me</string>
+    <string name="verification_btn_next">Dalej</string>
+    <string name="verification_btn_send_again">Zamów nowy kod TAN</string>
+    <string name="verification_headline">Kod weryfikacyjny</string>
+    <string name="verification_login_msg_mail">Proszę wpisać kod TAN przesłany przez nas mailem.</string>
+    <string name="verification_login_msg_user">W celu weryfikacji wysłaliśmy %1$d-miejscowy kod na adres %2$s. Proszę wprowadzić ten kod.</string>
+    <string name="verification_not_received">Nie masz kodu TAN?</string>
+    <string name="verification_not_received_hint_mail">Proszę sprawdzić podany adres e-mail lub poprosić o nowy kod uwierzytelniający.</string>
+    <string name="verification_not_received_hint_phone">Proszę sprawdzić podany numer telefonu komórkowego lub poprosić o nowy kod TAN.</string>
+    <string name="verification_send_again_msg">Twoje zapytanie zostało ponownie wysłane</string>
+    <string name="verification_title">Weryfikacja</string>
+</resources>

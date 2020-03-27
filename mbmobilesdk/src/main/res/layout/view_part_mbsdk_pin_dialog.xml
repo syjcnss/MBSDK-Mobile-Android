@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <data>
+                <variable
+                    name="model"
+                    type="com.daimler.mbmobilesdk.ui.components.viewmodels.MBPinDialogViewModel" />
+        </data>
+
+        <com.daimler.mbmobilesdk.ui.widgets.edittexts.MBPinTextInput
+            android:id="@+id/edit_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mb_margin_default"
+            android:layout_marginStart="@dimen/mb_margin_default"
+            android:layout_marginEnd="@dimen/mb_margin_default"
+            android:minHeight="46dp"
+            android:inputType="numberPassword"
+            app:pinListener="@{(s) -> model.onPinInputChanged(s)}"
+            app:inputLength="@{model.pinLength}"
+            app:spacing="@dimen/mb_margin_small" />
+
+</layout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Svoj PIN pogrešno ste upisali %1$d puta. Zbog toga je Vaš Mercedes me ID blokiran za %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minuta/minute</string>
+    <string name="command_error_pin_invalid">Svoj PIN pogrešno ste upisali %1$d puta.</string>
+    <string name="general_cancel">Prekini</string>
+    <string name="general_error_msg">Došlo je do pogreške. Molimo, pokušajte ponovno.</string>
+    <string name="general_error_network_msg">Nešto je pošlo krivo. Molimo, provjerite svoju internetsku vezu.</string>
+    <string name="general_error_title">Greška</string>
+    <string name="general_hint">Napomena</string>
+    <string name="general_no">Ne</string>
+    <string name="general_ok">U redu</string>
+    <string name="general_yes">Da</string>
+    <string name="login_error_authentication_failed">Autentifikacija nije uspjela. Molimo, pokušajte ponovno.</string>
+    <string name="login_error_wrong_tan">Informacija koju ste unijeli, nažalost, nije bila točna. Molimo, imajte na umu da ćete možda morati pričekati nekoliko minuta prije ponovnog pokušaja.</string>
+    <string name="login_info_alert_message">Mercedes me ID sadrži Vaš osobni broj mobilnog telefona ili Vašu e-mail adresu. Sa svojim identifikatorom Mercedes me ID možete se prijaviti svugdje u digitalnom svijetu Mercedes-Benza. Nudi Vam pristup svim dostupnim uslugama, funkcijama i platformama zemlje u kojoj ste prijavljeni.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Molimo, upišite vrijedeću e-mail adresu ili vrijedeći broj telefona.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Dalje</string>
+    <string name="login_only_caption">Prijava</string>
+    <string name="login_username">Broj mobilnog telefona ili e-mail adresa</string>
+    <string name="login_user_not_registered">Molimo Vas da se besplatno registrirate u jednoj od aplikacija Mercedes me App.</string>
+    <string name="pin_popup_button_again">Pokušaj ponovno</string>
+    <string name="pin_popup_cancel">Prekini</string>
+    <string name="pin_popup_default_no_pin_message">Molimo da u jednoj od aplikacija Mercedes me App odredite PIN.</string>
+    <string name="pin_popup_description">Molimo, unesite %1$d-znamenkasti PIN:</string>
+    <string name="pin_popup_send">Pošalji</string>
+    <string name="pin_popup_title">Unesi PIN</string>
+    <string name="pin_popup_wrong_pin_msg">PIN je neispravan. Molimo, pokušajte ponovno.</string>
+    <string name="pin_popup_wrong_pin_title">Pogrešan PIN</string>
+    <string name="registration_user_consent_message">Da bismo neprestano mogli poboljšavati aplikaciju, analiziramo korištenje aplikacije i njenih funkcija bez korištenja Vaših osobnih podataka. Ova funkcija se u svakom trenutku može deaktivirati u Izborniku &gt; Postavke &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Podaci o korištenju usluge Mercedes me</string>
+    <string name="verification_btn_next">Dalje</string>
+    <string name="verification_btn_send_again">Zatraži novi TAN kôd</string>
+    <string name="verification_headline">Verifikacijski kôd</string>
+    <string name="verification_login_msg_mail">Molimo, unesite TAN kôd koji smo Vam poslali putem e-maila.</string>
+    <string name="verification_login_msg_user">Poslali smo Vam %1$d-znamenkasti kôd na %2$s za verifikaciju. Molimo, unesite taj kôd.</string>
+    <string name="verification_not_received">Niste dobili TAN kôd?</string>
+    <string name="verification_not_received_hint_mail">Molimo, provjerite unesenu e-mail adresu ili zatražite novi verifikacijski kôd.</string>
+    <string name="verification_not_received_hint_phone">Molimo, provjerite uneseni broj mobilnog telefona ili zatražite novi TAN kôd.</string>
+    <string name="verification_send_again_msg">Vaš je upit ponovno poslan</string>
+    <string name="verification_title">Verifikacija</string>
+</resources>

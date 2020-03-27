@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">U hebt uw pincode %1$d keer onjuist ingevoerd. Uw Mercedes me ID is daarom voor %2$s geblokkeerd.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minuten</string>
+    <string name="command_error_pin_invalid">U hebt uw pincode %1$d keer onjuist ingevoerd.</string>
+    <string name="general_cancel">Annuleren</string>
+    <string name="general_error_msg">Er is een fout opgetreden. Probeer het opnieuw.</string>
+    <string name="general_error_network_msg">Er is iets fout gegaan. Controleer uw internetverbinding.</string>
+    <string name="general_error_title">Fout</string>
+    <string name="general_hint">Aanwijzing</string>
+    <string name="general_no">Nee</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Ja</string>
+    <string name="login_error_authentication_failed">De authenticatie is mislukt. Probeer het opnieuw.</string>
+    <string name="login_error_wrong_tan">Helaas is de door u ingevoerde informatie onjuist. Graag wijzen we u erop dat u mogelijk een aantal minuten moet wachten voordat u het opnieuw kunt proberen.</string>
+    <string name="login_info_alert_message">De Mercedes me ID bestaat uit ofwel uw persoonlijke mobiele telefoonnummer ofwel uw e-mailadres. Met uw Mercedes me ID kunt u zich overal vandaan bij de digitale wereld van Mercedes-Benz aanmelden. Hiermee hebt u toegang tot alle in uw adresland beschikbare services, functies en platforms.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Geef een geldig e-mailadres of telefoonnummer op.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Verder</string>
+    <string name="login_only_caption">Aanmelden</string>
+    <string name="login_username">Mobiel nummer of e-mailadres</string>
+    <string name="login_user_not_registered">"Registreer u gratis in een van de andere Mercedes me-apps. "</string>
+    <string name="pin_popup_button_again">Opnieuw proberen</string>
+    <string name="pin_popup_cancel">Annuleren</string>
+    <string name="pin_popup_default_no_pin_message">We verzoeken u in een van de Mercedes me-apps een pincode vast te leggen.</string>
+    <string name="pin_popup_description">Voer uw pincode van %1$d cijfers in:</string>
+    <string name="pin_popup_send">Verzenden</string>
+    <string name="pin_popup_title">Pincode invoeren</string>
+    <string name="pin_popup_wrong_pin_msg">De pincode is onjuist. Probeer het opnieuw.</string>
+    <string name="pin_popup_wrong_pin_title">Onjuiste pincode</string>
+    <string name="registration_user_consent_message">Om de app continu te verbeteren, analyseren we op basis van anonimiteit het gebruik van de app en de functies ervan. Deze functie kan op elk gewenst moment bij Menu &gt; Instellingen &gt; Analytics worden gedeactiveerd.</string>
+    <string name="registration_user_consent_title">Mercedes me-gebruiksgegevens</string>
+    <string name="verification_btn_next">Verder</string>
+    <string name="verification_btn_send_again">Nieuwe code aanvragen</string>
+    <string name="verification_headline">Verificatiecode</string>
+    <string name="verification_login_msg_mail">Voer de TAN-code in die we u per e-mail hebben toegestuurd.</string>
+    <string name="verification_login_msg_user">We hebben voor u ter verificatie een code met %1$d cijfers naar %2$s gezonden. Voer deze code in.</string>
+    <string name="verification_not_received">Geen TAN-code ontvangen?</string>
+    <string name="verification_not_received_hint_mail">Controleer het opgegeven e-mailadres of vraag een nieuwe verificatiecode aan.</string>
+    <string name="verification_not_received_hint_phone">Controleer het opgegeven mobiele nummer of vraag een nieuwe TAN-code aan.</string>
+    <string name="verification_send_again_msg">Uw aanvraag is opnieuw verzonden</string>
+    <string name="verification_title">Verificatie</string>
+</resources>

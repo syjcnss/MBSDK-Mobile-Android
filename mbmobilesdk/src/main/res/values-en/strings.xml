@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">You have entered your PIN incorrectly %1$d times. Your Mercedes me ID has therefore been blocked for %2$s.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minutes</string>
+    <string name="command_error_pin_invalid">You have entered an incorrect PIN %1$d times.</string>
+    <string name="general_cancel">Cancel</string>
+    <string name="general_error_msg">An error occurred. Please try again.</string>
+    <string name="general_error_network_msg">Something went wrong. Please check your internet connection.</string>
+    <string name="general_error_title">Error</string>
+    <string name="general_hint">Note</string>
+    <string name="general_no">No</string>
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Yes</string>
+    <string name="login_error_authentication_failed">Authentication failed.Please try again.</string>
+    <string name="login_error_wrong_tan">Unfortunately you have entered incorrect information. Please note that you may need to wait a few minutes before trying again.</string>
+    <string name="login_info_alert_message">The Mercedes me ID consists of either your personal mobile number or your email address. With your Mercedes me ID you can log in to the digital world of Mercedes-Benz everywhere. It offers access to all services, functions and platforms available in your address country.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">Please enter a valid email address or telephone number.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">Continue</string>
+    <string name="login_only_caption">Login</string>
+    <string name="login_username">Mobile number or email address</string>
+    <string name="login_user_not_registered">Please register free of charge in one of the other Mercedes me Apps.</string>
+    <string name="pin_popup_button_again">Try again</string>
+    <string name="pin_popup_cancel">Cancel</string>
+    <string name="pin_popup_default_no_pin_message">Please set a PIN in one of the Mercedes me Apps.</string>
+    <string name="pin_popup_description">Please enter your %1$d-digit PIN:</string>
+    <string name="pin_popup_send">Send</string>
+    <string name="pin_popup_title">PIN entry</string>
+    <string name="pin_popup_wrong_pin_msg">The PIN is incorrect. Please try again.</string>
+    <string name="pin_popup_wrong_pin_title">Incorrect PIN</string>
+    <string name="registration_user_consent_message">In order to continually improve the app, we analyse the use of the app and its functions without reference to you personally. This function can be deactivated at any time via Menu &gt; Settings &gt; Analytics.</string>
+    <string name="registration_user_consent_title">Mercedes me usage data</string>
+    <string name="verification_btn_next">Next</string>
+    <string name="verification_btn_send_again">Request new TAN code</string>
+    <string name="verification_headline">Verification code</string>
+    <string name="verification_login_msg_mail">Please enter the TAN code we sent you by email.</string>
+    <string name="verification_login_msg_user">For verification, we have sent you a %1$d-digit code to %2$s. Please enter this code.</string>
+    <string name="verification_not_received">No TAN code received?</string>
+    <string name="verification_not_received_hint_mail">Please check the entered email address or request a new verification code.</string>
+    <string name="verification_not_received_hint_phone">Please check the entered mobile number or request a new TAN code.</string>
+    <string name="verification_send_again_msg">Your enquiry has been sent again</string>
+    <string name="verification_title">Verification</string>
+</resources>

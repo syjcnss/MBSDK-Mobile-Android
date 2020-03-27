@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mb_font_size_chooser">16sp</dimen>
+    <dimen name="mb_font_size_menu">17sp</dimen>
+    <dimen name="mb_font_size_toolbar">20sp</dimen>
+    <dimen name="mb_font_size_title">22sp</dimen>
+
+    <dimen name="mb_font_size_headline_4">36sp</dimen>
+    <dimen name="mb_font_size_headline_5">26sp</dimen>
+    <dimen name="mb_font_size_headline_6">22sp</dimen>
+
+    <dimen name="mb_font_size_body_1">16sp</dimen>
+    <dimen name="mb_font_size_body_2">14sp</dimen>
+    <dimen name="mb_font_size_subtitle_1">18sp</dimen>
+    <dimen name="mb_font_size_subtitle_2">15sp</dimen>
+    <dimen name="mb_font_size_button">18sp</dimen>
+    <dimen name="mb_font_size_caption">12sp</dimen>
+    <dimen name="mb_font_size_overline">13sp</dimen>
+</resources>

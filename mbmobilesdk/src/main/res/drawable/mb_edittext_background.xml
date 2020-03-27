@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="@android:integer/config_shortAnimTime" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:state_enabled="false">
+        <shape>
+            <stroke android:width="0.5dp" android:color="@color/mb_grey3" />
+            <solid android:color="@color/mb_grey6" />
+            <corners android:bottomLeftRadius="@dimen/mb_button_corner_radius" android:bottomRightRadius="@dimen/mb_button_corner_radius" android:topLeftRadius="@dimen/mb_button_corner_radius" android:topRightRadius="@dimen/mb_button_corner_radius" />
+        </shape>
+    </item>
+
+    <item android:state_focused="false" android:state_pressed="false">
+        <shape>
+            <stroke android:width="0.5dp" android:color="@color/mb_grey2" />
+            <solid android:color="@color/mb_grey5" />
+            <corners android:bottomLeftRadius="@dimen/mb_edittext_corner_radius" android:bottomRightRadius="@dimen/mb_edittext_corner_radius" android:topLeftRadius="@dimen/mb_edittext_corner_radius" android:topRightRadius="@dimen/mb_edittext_corner_radius" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke android:width="0.5dp" android:color="@color/mb_accent_primary" />
+            <solid android:color="@color/mb_grey5" />
+            <corners android:bottomLeftRadius="@dimen/mb_edittext_corner_radius" android:bottomRightRadius="@dimen/mb_edittext_corner_radius" android:topLeftRadius="@dimen/mb_edittext_corner_radius" android:topRightRadius="@dimen/mb_edittext_corner_radius" />
+        </shape>
+    </item>
+</selector>

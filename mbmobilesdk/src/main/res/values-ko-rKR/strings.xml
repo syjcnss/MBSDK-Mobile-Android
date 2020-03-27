@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">PIN을 %1$d회 잘못 입력하였습니다. 고객님의 Mercedes me ID가 %2$s 동안 차단됩니다.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d분</string>
+    <string name="command_error_pin_invalid">PIN을 %1$d번 잘못 입력했습니다.</string>
+    <string name="general_cancel">취소</string>
+    <string name="general_error_msg">오류가 발생했습니다. 다시 시도하세요.</string>
+    <string name="general_error_network_msg">문제가 발생했습니다. 인터넷 연결 상태를 확인하세요.</string>
+    <string name="general_error_title">오류</string>
+    <string name="general_hint">주의 사항</string>
+    <string name="general_no">아니오</string>
+    <string name="general_ok">확인</string>
+    <string name="general_yes">예</string>
+    <string name="login_error_authentication_failed">인증할 수 없습니다.다시 시도하세요.</string>
+    <string name="login_error_wrong_tan">입력하신 정보가 올바르지 않습니다. 경우에 따라 다시 시작하려면 몇 분 동안 기다려야 할 수 있습니다.</string>
+    <string name="login_info_alert_message">Mercedes me ID는 고객님의 개인 휴대전화 번호나 이메일 주소로 구성됩니다. 고객님의 Mercedes me ID를 이용하여 Mercedes-Benz의 모든 디지털 콘텐츠를 어디에서나 이용할 수 있습니다. 이 ID로 고객님의 거주 등록 국가에서 제공되는 모든 서비스, 기능 및 플랫폼에 접속할 수 있습니다.</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">올바른 이메일 주소나 전화번호를 입력하십시오.</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">계속</string>
+    <string name="login_only_caption">Login</string>
+    <string name="login_username">휴대전화 번호 또는 이메일 주소</string>
+    <string name="login_user_not_registered">Please register free of charge in one of the other Mercedes me Apps.</string>
+    <string name="pin_popup_button_again">다시 시도</string>
+    <string name="pin_popup_cancel">취소</string>
+    <string name="pin_popup_default_no_pin_message">Please set a PIN in one of the Mercedes me Apps.</string>
+    <string name="pin_popup_description">고객님의 %1$d자리 PIN을 입력하십시오.</string>
+    <string name="pin_popup_send">보내기</string>
+    <string name="pin_popup_title">PIN 입력</string>
+    <string name="pin_popup_wrong_pin_msg">PIN이 올바르지 않습니다. 다시 시도하세요.</string>
+    <string name="pin_popup_wrong_pin_title">올바르지 않은 PIN</string>
+    <string name="registration_user_consent_message">지속적인 앱 개선을 위해 앱 사용 정보과 기능을 익명화하여 분석하고 있습니다. 이 기능은 메뉴 &gt; 설정 &gt; Analytics 경로에서 언제든지 비활성화할 수 있습니다.</string>
+    <string name="registration_user_consent_title">Mercedes me 사용 데이터</string>
+    <string name="verification_btn_next">계속</string>
+    <string name="verification_btn_send_again">TAN 코드 다시 요청</string>
+    <string name="verification_headline">인증 코드</string>
+    <string name="verification_login_msg_mail">이메일로 보내드린 TAN 코드를 입력하십시오.</string>
+    <string name="verification_login_msg_user">고객님께 본인 인증을 위해 %1$d 자리 코드를 %2$s(으)로 발송하였습니다. 이 코드를 입력하십시오.</string>
+    <string name="verification_not_received">TAN 코드를 받지 못하셨나요?</string>
+    <string name="verification_not_received_hint_mail">입력한 이메일 주소를 확인하거나 다른 인증 코드를 요청하십시오.</string>
+    <string name="verification_not_received_hint_phone">입력한 휴대전화 번호를 확인하거나 다른 TAN 코드를 요청하십시오.</string>
+    <string name="verification_send_again_msg">요청이 다시 전송되었습니다.</string>
+    <string name="verification_title">인증</string>
+</resources>

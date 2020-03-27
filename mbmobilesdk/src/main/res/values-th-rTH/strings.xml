@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">คุณป้อนรหัส PIN ผิด %1$d ครั้ง Mercedes me ID ของคุณถูกบล็อกเป็นเวลา %2$s</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d นาที</string>
+    <string name="command_error_pin_invalid">คุณใส่รหัส PIN ของคุณผิด  %1$d ครั้ง</string>
+    <string name="general_cancel">ยกเลิก</string>
+    <string name="general_error_msg">มีข้อผิดพลาดเกิดขึ้นโปรดลองใหม่อีกครั้ง</string>
+    <string name="general_error_network_msg">มีข้อผิดพลาดเกิดขึ้น โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="general_error_title">ข้อผิดพลาด</string>
+    <string name="general_hint">คำแนะนำ</string>
+    <string name="general_no">ไม่มี</string>
+    <string name="general_ok">ตกลง</string>
+    <string name="general_yes">มี</string>
+    <string name="login_error_authentication_failed">การรับรองความถูกต้องล้มเหลว โปรดลองใหม่อีกครั้ง</string>
+    <string name="login_error_wrong_tan">ขออภัย ข้อมูลที่คุณป้อนไม่ถูกต้องโปรดทราบว่า คุณต้องรอสักครู่ก่อนการป้อนข้อมูลใหม่อีกครั้ง</string>
+    <string name="login_info_alert_message">Mercedes me ID สร้างจากเบอร์โทรศัพท์ส่วนตัวหรือที่อยู่อีเมลของคุณ หากคุณมี Mercedes me ID คุณจะสามารถลงชื่อเข้าใช้งานในโลกดิจิตอลของ Mercedes-Benz ได้ทุกที่ ซึ่งจะช่วยให้คุณสามารถเข้าถึงการบริการ ฟังก์ชันและแพลตฟอร์มต่างๆ ที่สามารถใช้งานได้ในประเทศที่อยู่ของคุณ</string>
+    <string name="login_info_alert_title">Mercedes me ID</string>
+    <string name="login_invalid_input">โปรดกรอกที่อยู่อีเมลหรือเบอร์โทรศัพท์ที่ยังสามารถใช้งานได้</string>
+    <string name="login_mercedesme_id">Mercedes me ID</string>
+    <string name="login_next">ต่อไป</string>
+    <string name="login_only_caption">ลงชื่อเข้าใช้</string>
+    <string name="login_username">เบอร์โทรศัพท์หรือที่อยู่อีเมล</string>
+    <string name="login_user_not_registered">กรุณาลงทะเบียนใช้งาน Mercedes me App อื่นๆ โดยไม่ต้องเสียค่าใช้จ่าย</string>
+    <string name="pin_popup_button_again">ลองใหม่อีกครั้ง</string>
+    <string name="pin_popup_cancel">ยกเลิก</string>
+    <string name="pin_popup_default_no_pin_message">โปรดกำหนดรหัส PIN สำหรับ Mercedes me App</string>
+    <string name="pin_popup_description">โปรดป้อน PIN จำนวน %1$d หลักของคุณ:</string>
+    <string name="pin_popup_send">ส่ง</string>
+    <string name="pin_popup_title">ป้อนรหัส PIN</string>
+    <string name="pin_popup_wrong_pin_msg">รหัส PIN ไม่ถูกต้อง โปรดลองใหม่อีกครั้ง</string>
+    <string name="pin_popup_wrong_pin_title">รหัส PIN ไม่ถูกต้อง</string>
+    <string name="registration_user_consent_message">เราจะวิเคราะห์ข้อมูลการใช้งานแอปพลิเคชันและฟังก์ชันของคุณเพื่อพัฒนาแอปพลิเคชันอย่างต่อเนื่อง โดยไม่ก้าวก่ายตัวตนของคุณ คุณสามารถปิดใช้งานฟังก์ชันนี้ได้ทุกเมื่อ โดยเข้าไปที่ เมนู &gt; การตั้งค่า &gt; Analytics</string>
+    <string name="registration_user_consent_title">ข้อมูลการใช้งานแอปพลิเคชัน Mercedes me</string>
+    <string name="verification_btn_next">ต่อไป</string>
+    <string name="verification_btn_send_again">ขอรหัส TAN ใหม่</string>
+    <string name="verification_headline">รหัสยืนยันความถูกต้อง</string>
+    <string name="verification_login_msg_mail">โปรดใส่รหัส TAN ที่เราส่งให้คุณทางอีเมล</string>
+    <string name="verification_login_msg_user">เราได้ส่งรหัสการตรวจสอบยืนยัน %1$d หลักไปที่ %2$s แล้ว กรุณาป้อนรหัสการตรวจสอบยืนยัน</string>
+    <string name="verification_not_received">ไม่ได้รับรหัส TAN หรือ</string>
+    <string name="verification_not_received_hint_mail">โปรดตรวจสอบที่อยู่อีเมลที่คุณป้อน หรือขอรหัสยืนยันใหม่อีกครั้ง</string>
+    <string name="verification_not_received_hint_phone">โปรดตรวจสอบเบอร์โทรศัพท์ที่คุณป้อน หรือขอรหัส TAN ใหม่</string>
+    <string name="verification_send_again_msg">คำขอของคุณถูกส่งไปอีกครั้งแล้ว</string>
+    <string name="verification_title">การตรวจสอบ</string>
+</resources>

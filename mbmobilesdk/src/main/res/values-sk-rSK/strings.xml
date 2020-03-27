@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="alert_message_invalid_pin">The PIN is not valid.</string>
+    <string name="command_error_blocked_ciam_id">Svoj kód PIN ste zadali nesprávne %1$d-krát. Váš identifikátor Mercedes me (ID Mercedes me) sa tým na %2$s zablokoval.</string>
+    <string name="command_error_minute">%1$d minute</string>
+    <string name="command_error_minutes">%1$d minút</string>
+    <string name="command_error_pin_invalid">Svoj kód PIN ste zadali nesprávne %1$d-krát.</string>
+    <string name="general_cancel">Zrušiť</string>
+    <string name="general_error_msg">Vyskytla sa chyba. Skúste to, prosím, znova.</string>
+    <string name="general_error_network_msg">Niečo sa nepodarilo. Skontrolujte svoje internetové pripojenie, prosím.</string>
+    <string name="general_error_title">Chyba</string>
+    <string name="general_hint">Poznámka</string>
+    <string name="general_no">Nie</string>
+    <string name="general_ok">Ok</string>
+    <string name="general_yes">Áno</string>
+    <string name="login_error_authentication_failed">Autentifikácia zlyhala. Skúste to, prosím, znova.</string>
+    <string name="login_error_wrong_tan">Vami zadaná informácia žiaľ nebola správna. Prosím, berte do úvahy, že pred opätovným pokusom budete musieť prípadne pár minút počkať.</string>
+    <string name="login_info_alert_message">Identifikátor Mercedes me tvorí buď vaše osobné mobilné telefónne číslo alebo vaša e-mailová adresa. Pomocou svojho identifikátora Mercedes me sa môžete všade prihlásiť do digitálneho sveta značky Mercedes-Benz. Ponúka prístup k všetkým službám, funkciám a platformám dostupným v krajine adresy.</string>
+    <string name="login_info_alert_title">ID Mercedes me</string>
+    <string name="login_invalid_input">Zadajte, prosím, platnú e-mailovú adresu alebo telefónne číslo.</string>
+    <string name="login_mercedesme_id">ID Mercedes me</string>
+    <string name="login_next">Ďalej</string>
+    <string name="login_only_caption">Prihlásenie</string>
+    <string name="login_username">Mobilné telefónne číslo alebo e‑mailová adresa</string>
+    <string name="login_user_not_registered">Zaregistrujte sa, prosím, bezplatne v jednej z ostatných aplikácii Mercedes me.</string>
+    <string name="pin_popup_button_again">Skúsiť znovu</string>
+    <string name="pin_popup_cancel">Zrušiť</string>
+    <string name="pin_popup_default_no_pin_message">Nastavte si, prosím, kód PIN v jednej z aplikácií Mercedes me.</string>
+    <string name="pin_popup_description">Zadajte, prosím, svoj %1$d-miestny kód PIN:</string>
+    <string name="pin_popup_send">Odoslať</string>
+    <string name="pin_popup_title">Zadanie kódu PIN</string>
+    <string name="pin_popup_wrong_pin_msg">Kód PIN nie je správny. Skúste to, prosím, znova.</string>
+    <string name="pin_popup_wrong_pin_title">Nesprávny kód PIN</string>
+    <string name="registration_user_consent_message">S cieľom neustále vylepšovať aplikáciu analyzujeme používanie aplikácie a jej funkcií bez spojitosti s vašou osobou. Túto funkciu možno kedykoľvek deaktivovať v časti Ponuka &gt; Nastavenia &gt; Analýza.</string>
+    <string name="registration_user_consent_title">Údaje o používaní Mercedes me</string>
+    <string name="verification_btn_next">Ďalej</string>
+    <string name="verification_btn_send_again">Vyžiadať nový kód TAN</string>
+    <string name="verification_headline">Verifikačný kód</string>
+    <string name="verification_login_msg_mail">Zadajte, prosím, kód TAN, ktorý sme vám zaslali prostredníctvom e-mailu.</string>
+    <string name="verification_login_msg_user">Na overenie sme vám na %2$s poslali %1$d-miestny kód. Zadajte, prosím, tento kód.</string>
+    <string name="verification_not_received">Nedostali ste kód TAN?</string>
+    <string name="verification_not_received_hint_mail">Skontrolujte, prosím, zadanú e-mailovú adresu alebo si vyžiadajte nový verifikačný kód.</string>
+    <string name="verification_not_received_hint_phone">Skontrolujte, prosím, zadané mobilné telefónne číslo alebo si vyžiadajte nový kód TAN.</string>
+    <string name="verification_send_again_msg">Vaša požiadavka bola opätovne odoslaná</string>
+    <string name="verification_title">Verifikácia</string>
+</resources>

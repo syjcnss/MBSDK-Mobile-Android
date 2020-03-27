@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MBEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHighlight">@color/mb_accent_primary</item>
+        <item name="android:textCursorDrawable">@drawable/mb_cursor</item>
+        <item name="android:background">@drawable/mb_edittext_background</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/mb_font_sans</item>
+        <item name="android:layout_height">@dimen/mb_edittext_height</item>
+        <item name="android:paddingLeft">@dimen/mb_unit_x4</item>
+        <item name="android:paddingRight">@dimen/mb_unit_x4</item>
+    </style>
+
+    <style name="MBEditTextStyle.Password">
+        <item name="android:background">@drawable/mb_edittext_password_background</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="MBTextInputLayoutStyle" parent="Widget.Design.TextInputLayout">
+        <item name="android:clipToPadding">false</item>
+        <item name="hintTextAppearance">@style/MBHint</item>
+        <item name="android:paddingTop">@dimen/mb_edittext_text_bottom_padding</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_height">@dimen/mb_edittext_height</item>
+    </style>
+
+    <style name="MBTextInputLayoutStyle.Password">
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/mb_black</item>
+    </style>
+
+    <style name="MBHint" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/mb_accent_primary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MBPinCodeStyle" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textColorHighlight">@color/mb_accent_primary</item>
+        <item name="android:textCursorDrawable">@drawable/mb_cursor</item>
+        <item name="android:background">@drawable/mb_pin_text_input_outline_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColorHint">@color/mb_pin_hint_visibility_color</item>
+        <item name="android:fontFamily">@font/mb_font_serif</item>
+    </style>
+</resources>
